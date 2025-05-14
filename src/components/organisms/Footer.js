@@ -9,13 +9,12 @@ const Footer = () => {
 
   return (
     <FooterComponent
-      backgroundColor='transparent'
+      backgroundColor='#f0fdf4'
       legal={footerData}
       onRedirect={(path) => {
         window.open(path, '_blank');
       }}
       visaImage='/images/visaMaster.png'
-      masterImage='/images/openpay.jpg'
     />
   );
 };
